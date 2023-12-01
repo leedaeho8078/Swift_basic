@@ -2,3 +2,5 @@
 
 
 ## inheritance
+
+- '자바'
