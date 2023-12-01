@@ -15,5 +15,4 @@
 - 옵셔널 체이닝
 - 빠른 종료
 
-
-< img src = "https://github.com/leedaeho8078/Swift_basic/assets/83402908/8debe5a8-4ce5-48cc-8f1c-8264823a7879"/>
+<img width="200" alt="스크린샷 2023-12-01 오후 2 10 11" src="https://github.com/leedaeho8078/Swift_basic/assets/83402908/9f7e5fc7-f655-43d2-9ff5-172214951550">
