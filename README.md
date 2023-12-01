@@ -2,4 +2,4 @@
 
 
 ## 2023-12-01
-# inheritance(상속)
+### inheritance(상속)
