@@ -34,6 +34,7 @@ personInfo["location"] = "Korea"
 
 greet(personInfo) //Hello jenny, I hope the weather is nice in Korea
 
+
 // guard 구문이 사용될 수 없는 경우
 let first: Int = 3
 let second: Int = 5
