@@ -1,6 +1,5 @@
 # Swift_basic
 
 
-## inheritance
-
-- '자바'
+## 2023-12-01
+# inheritance(상속)
