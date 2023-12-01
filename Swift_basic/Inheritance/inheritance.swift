@@ -140,7 +140,7 @@ youngho.grade = "A"
 youngho.koreanAge = 18
 print(youngho.koreanAge)
 
- 프로퍼티 감시자 재정의
+// 프로퍼티 감시자 재정의
 class Person {
     var name: String = ""
     var age: Int = 0  {
