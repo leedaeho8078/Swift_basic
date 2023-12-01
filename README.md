@@ -1,7 +1,7 @@
 # TIL 
 
 ## 2023-12-01
-### [inheritance(상속)](https://github.com/leedaeho8078/Swift_basic/blob/main/Swift_basic/Swift_basic/inheritance.swift)
+### [inheritance(상속)](https://github.com/leedaeho8078/Swift_basic/blob/fcb7381201e5496393590ac44c6d8698a07c8217/Swift_basic/Inheritance/README.md)
 - 클래스 상속
 - 재정의
 - 메서드 재정의
