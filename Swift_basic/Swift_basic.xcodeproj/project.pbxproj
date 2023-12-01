@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06D51F452B199CD5009BD89C /* inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F442B199CD5009BD89C /* inheritance.swift */; };
-		06D51F472B199D2D009BD89C /* type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F462B199D2D009BD89C /* type.swift */; };
+		06D51F4D2B19EC83009BD89C /* Optional Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F4C2B19EC83009BD89C /* Optional Chaining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,9 @@
 		06D51F3A2B199C50009BD89C /* Swift_basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D51F3D2B199C50009BD89C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		06D51F442B199CD5009BD89C /* inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inheritance.swift; sourceTree = "<group>"; };
-		06D51F462B199D2D009BD89C /* type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type.swift; sourceTree = "<group>"; };
 		06D51F492B19A0AF009BD89C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06D51F4C2B19EC83009BD89C /* Optional Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional Chaining.swift"; sourceTree = "<group>"; };
+		06D51F4E2B19ECD4009BD89C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		06D51F312B199C50009BD89C = {
 			isa = PBXGroup;
 			children = (
+				06D51F4B2B19EC60009BD89C /* Optional Chaining */,
 				06D51F482B19A089009BD89C /* Inheritance */,
 				06D51F3C2B199C50009BD89C /* Swift_basic */,
 				06D51F3B2B199C50009BD89C /* Products */,
@@ -63,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				06D51F3D2B199C50009BD89C /* main.swift */,
-				06D51F462B199D2D009BD89C /* type.swift */,
 			);
 			path = Swift_basic;
 			sourceTree = "<group>";
@@ -75,6 +76,15 @@
 				06D51F492B19A0AF009BD89C /* README.md */,
 			);
 			path = Inheritance;
+			sourceTree = "<group>";
+		};
+		06D51F4B2B19EC60009BD89C /* Optional Chaining */ = {
+			isa = PBXGroup;
+			children = (
+				06D51F4C2B19EC83009BD89C /* Optional Chaining.swift */,
+				06D51F4E2B19ECD4009BD89C /* README.md */,
+			);
+			path = "Optional Chaining";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D51F452B199CD5009BD89C /* inheritance.swift in Sources */,
-				06D51F472B199D2D009BD89C /* type.swift in Sources */,
+				06D51F4D2B19EC83009BD89C /* Optional Chaining.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
