@@ -25,7 +25,6 @@ class Person {
 
 
 //Person 클래스를 상속받은 Student 클래스
-
 class Student: Person {
     var grade: String = "F"
    
