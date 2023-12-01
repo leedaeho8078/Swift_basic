@@ -14,3 +14,6 @@
 ### [Optional Chaining(옵셔널 체이닝)](https://github.com/leedaeho8078/Swift_basic/blob/main/Swift_basic/Optional%20Chaining/README.md)
 - 옵셔널 체이닝
 - 빠른 종료
+
+
+< img src = "https://github.com/leedaeho8078/Swift_basic/assets/83402908/8debe5a8-4ce5-48cc-8f1c-8264823a7879"/>
