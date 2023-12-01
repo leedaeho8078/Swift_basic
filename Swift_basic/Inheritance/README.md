@@ -1,20 +1,22 @@
-# Inheritance
+# Inheritance(상속)
 
 **Apple** 공식문서 : [참고](https://bbiguduk.gitbook.io/swift/language-guide-1/inheritance) 
 
 - 상속
 클래스는 메서드나 프로퍼티등을 다른 클래스부터 **상속** 받을 수 있다
 
-### 1. 클래스 상속
+### 1. 클래스 정의
+> **Swift 클래스는 범용 기본 클래스를 상속하지 않습니다. 상위 클래스 지정 없이 정의한 클래스는 자동적으로 빌드 할 때 기본 클래스가 됩니다.**
+
 
 ```Swift
     class 클래스이름 : 부모클래스 이름 {
     프로퍼티와 메서드들
 }
 ```
+
+예시
 | A | B | C |
 |:---|:---:|---:|
 | `이대호` | aaa | `111` |
 | `이희병` | bbb |  |
-| `row3` | ccc |  |
-| `row4` | ddd |  |
