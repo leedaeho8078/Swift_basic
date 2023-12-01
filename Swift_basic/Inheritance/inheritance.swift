@@ -6,4 +6,4 @@
 //
 
 import Foundation
-print("상속")
+

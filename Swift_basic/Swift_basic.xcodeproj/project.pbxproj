@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06D51F3E2B199C50009BD89C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F3D2B199C50009BD89C /* main.swift */; };
 		06D51F452B199CD5009BD89C /* inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F442B199CD5009BD89C /* inheritance.swift */; };
 		06D51F472B199D2D009BD89C /* type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F462B199D2D009BD89C /* type.swift */; };
 /* End PBXBuildFile section */
@@ -138,7 +137,6 @@
 			files = (
 				06D51F452B199CD5009BD89C /* inheritance.swift in Sources */,
 				06D51F472B199D2D009BD89C /* type.swift in Sources */,
-				06D51F3E2B199C50009BD89C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
