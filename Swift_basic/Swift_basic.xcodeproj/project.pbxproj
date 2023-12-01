@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06D51F4D2B19EC83009BD89C /* Optional Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F4C2B19EC83009BD89C /* Optional Chaining.swift */; };
 		06D51F4F2B1A0B6B009BD89C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F3D2B199C50009BD89C /* main.swift */; };
+		06D51F512B1A0F18009BD89C /* Early Exit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D51F502B1A0F18009BD89C /* Early Exit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		06D51F492B19A0AF009BD89C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		06D51F4C2B19EC83009BD89C /* Optional Chaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional Chaining.swift"; sourceTree = "<group>"; };
 		06D51F4E2B19ECD4009BD89C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06D51F502B1A0F18009BD89C /* Early Exit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Early Exit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				06D51F4C2B19EC83009BD89C /* Optional Chaining.swift */,
 				06D51F4E2B19ECD4009BD89C /* README.md */,
+				06D51F502B1A0F18009BD89C /* Early Exit.swift */,
 			);
 			path = "Optional Chaining";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				06D51F4F2B1A0B6B009BD89C /* main.swift in Sources */,
 				06D51F4D2B19EC83009BD89C /* Optional Chaining.swift in Sources */,
+				06D51F512B1A0F18009BD89C /* Early Exit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
