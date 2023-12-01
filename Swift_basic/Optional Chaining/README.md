@@ -74,7 +74,7 @@ print(daeho.address?.building?.room?.number) // Optional<505>
 
 #  Early Exit(빠른 종료)
 - 빠른 종료의 핵심 키워드는 `guard`입니다. guard 뒤에 따라붙는 코드의 실행 결과가 true일 때 코드가 계속 실행된다.
-- if 구문과는 다르게 guard구문은 항상 else 구문이 뒤에 따라와아 한다, guard 뒤에 따라오는 Bool 값이 false라면 else의 블록 내부가 실행한다. 현재의 코드 블록을 종료할 때는 `return`, `break`. `continue`, `thro`w등의 제어문 전환 명령을 사용한다. 또는 fatalError()와 같은 비반환 함수나 메서드를 호출 할수 있다.
+- if 구문과는 다르게 guard구문은 항상 else 구문이 뒤에 따라와아 한다, guard 뒤에 따라오는 Bool 값이 false라면 else의 블록 내부가 실행한다. 현재의 코드 블록을 종료할 때는 `return`, `break`. `continue`, `throw`등의 제어문 전환 명령을 사용한다. 또는 fatalError()와 같은 비반환 함수나 메서드를 호출 할수 있다.
 ```Swift
 guard Bool 타입 값 else {
     예외사항 실행문
