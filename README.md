@@ -16,7 +16,7 @@
 - 빠른 종료
 
 ### 2023-12-02
-### 고차함수
+### [고차함수](https://github.com/leedaeho8078/Swift_basic/blob/main/Swift_basic/Higher_order_function/README.md)
 - 맵
 - 필터
 - 리듀스
