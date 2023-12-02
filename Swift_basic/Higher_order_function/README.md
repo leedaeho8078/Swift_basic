@@ -56,3 +56,17 @@ let oddNumbers: [Int] = numbers.filter { $0 % 2 == 1}
 print(oddNumbers)  // [1,3,5]
 
 ```
+### reduce
+> `reduce` 기능은 사실 결합이라고 불러야 마땅한 기능이다. 리듀스는 컨테이너 내부의 콘텐츠를 하나로 합하는 기능을 실행하는 고차함수다.
+```Swift
+
+// 초깃값이 0이고 정수 배열의 모든 값을 더한다.
+var sum: [Int] = numbers.reduce(0, { (result: Int, next: Int) -> Int in
+        return result + next
+})
+
+var sum: [Int] = numbers.reduce(0){
+    return $0 + $1
+}
+
+```
