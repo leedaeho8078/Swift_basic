@@ -20,3 +20,10 @@
 - 맵
 - 필터
 - 리듀스
+
+
+## 2023-12-03
+### [Collection type(컬렉션 형)](https://github.com/leedaeho8078/Swift_basic/blob/main/Swift_basic/Collection%20type/README.md)
+- 배열
+- 딕셔너리
+- 세트
