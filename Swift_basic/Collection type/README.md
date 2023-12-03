@@ -68,3 +68,26 @@ print(numberForName.removeValue(forKey: "daeho")) // daeho가 이미 삭제되�
 세트는 같은 타입의 데이터를 순서 없이 하나의 묶음으로 저장하는 형태의 컬렉션 타입이다.
 세트 내의 값은 모두 유일한 값이며, 즉 중복된 값이 존재하지 않는다. 그래서 세트는 **보통 순서가 중요하지 않거나 각요소가 유일한 값이어야 하는 경우** 사용한다.
 배열과 달리 줄여서 표현할 수 있는 축약형이 없다. (예를 들어 Array<Int>를 [Int]처럼)
+
+```Swift
+//세트의 선언과 생성
+//var names: Set<String> = Set<String>()
+//var names: Set<String> = []
+var names: Set<String> = ["daeho", "chulsoo", "younghee", "youngho"]
+
+// 타입 추론을 사용하게 되면 컴파일러는 Set이 아닌 Array 타입으로 지정한다.
+var numbers = [100, 200, 300]
+
+print(names.count)
+print(names.isEmpty)
+
+//세트의 활용
+let firstSet: Set<Int> = [1,2,3,4,5,6]
+let secondSet: Set<Int> = [1,3,5,6,7,8,9]
+
+let unionSet: Set<Int> = firstSet.union(secondSet)
+print(unionSet.sorted())
+
+let intersectSet: Set<Int> = firstSet.intersection(secondSet)
+print(intersectSet.sorted())
+```
