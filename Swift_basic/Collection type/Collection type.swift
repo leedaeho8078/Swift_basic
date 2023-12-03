@@ -49,6 +49,8 @@ print(numberForName["heeee"]) //nil 반환
 
 print(numberForName)
 print(numberForName.removeValue(forKey: "daeho"))
+print(numberForName)
+print(numberForName.removeValue(forKey: "daeho")) // daeho가 이미 삭제되었으므로 nil
 
 
 //세트의 선언과 생성
@@ -71,6 +73,4 @@ print(unionSet.sorted())
 
 let intersectSet: Set<Int> = firstSet.intersection(secondSet)
 print(intersectSet.sorted())
-print(numberForName)
-print(numberForName.removeValue(forKey: "daeho")) // daeho가 이미 삭제되었으므로 nil
 
