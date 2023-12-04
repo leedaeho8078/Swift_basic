@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		068977A12B1D604C0069C9E3 /* Control Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068977A02B1D604C0069C9E3 /* Control Flow.swift */; };
 		06C165F02B1B61BC00463ADC /* filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C165EF2B1B61BC00463ADC /* filter.swift */; };
 		06C165F22B1B61C600463ADC /* reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C165F12B1B61C600463ADC /* reduce.swift */; };
 		06C165F62B1CA90F00463ADC /* Collection type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C165F52B1CA90F00463ADC /* Collection type.swift */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		068977A02B1D604C0069C9E3 /* Control Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control Flow.swift"; sourceTree = "<group>"; };
+		068977A32B1D60770069C9E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		06C165ED2B1B61AD00463ADC /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 		06C165EF2B1B61BC00463ADC /* filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filter.swift; sourceTree = "<group>"; };
 		06C165F12B1B61C600463ADC /* reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reduce.swift; sourceTree = "<group>"; };
@@ -54,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0689779F2B1D60220069C9E3 /* Control Flow */ = {
+			isa = PBXGroup;
+			children = (
+				068977A02B1D604C0069C9E3 /* Control Flow.swift */,
+				068977A32B1D60770069C9E3 /* README.md */,
+			);
+			path = "Control Flow";
+			sourceTree = "<group>";
+		};
 		06C165EC2B1B618A00463ADC /* Higher_order_function */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +89,7 @@
 		06D51F312B199C50009BD89C = {
 			isa = PBXGroup;
 			children = (
+				0689779F2B1D60220069C9E3 /* Control Flow */,
 				06C165F42B1CA8B200463ADC /* Collection type */,
 				06C165EC2B1B618A00463ADC /* Higher_order_function */,
 				06D51F4B2B19EC60009BD89C /* Optional Chaining */,
@@ -182,6 +195,7 @@
 				06D51F4F2B1A0B6B009BD89C /* main.swift in Sources */,
 				06C165F22B1B61C600463ADC /* reduce.swift in Sources */,
 				06C165F62B1CA90F00463ADC /* Collection type.swift in Sources */,
+				068977A12B1D604C0069C9E3 /* Control Flow.swift in Sources */,
 				06D51F4D2B19EC83009BD89C /* Optional Chaining.swift in Sources */,
 				06C165F02B1B61BC00463ADC /* filter.swift in Sources */,
 				06D51F512B1A0F18009BD89C /* Early Exit.swift in Sources */,
