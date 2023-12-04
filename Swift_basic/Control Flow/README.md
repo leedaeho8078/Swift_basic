@@ -103,7 +103,7 @@ case .gradutate
 ```Swift
 for 임시 상수 in 시퀀스 아이템 {
   실행 코드
-
+}
 
 // for~in 반복 구문의 활용
 var musicList = ["좋은 날", "잔소리", "Dynamite", "Omg"]
