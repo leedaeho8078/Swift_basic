@@ -93,5 +93,45 @@ case .gradutate
 // 최종학력은 대학교입니다.
 ```
 
-### 반복문
+## 반복문
+
+### for~in 구문
+> 같거나 비슷한 명령을 반복 실행할 때는 반복문만큼 중요한것이 없다. 특히나 배열과 같은 시퀀스, 순서가 있는 데이터는 반복문으로 더욱 편리하게 처리 할 수 있다.
+- 조건에 괄호를 생략 가능
+- 또한 `do-while`구문은 스위프트에서 `repeat-while`구문으로 구현
+- 함수형 프로그래밍 패러다임을 이해하면 for-in 구문보다 `map`,`filter`,`flatMap`등을 더많이 사용하게 된다
+```Swift
+for 임시 상수 in 시퀀스 아이템 {
+  실행 코드
+
+
+// for~in 반복 구문의 활용
+var musicList = ["좋은 날", "잔소리", "Dynamite", "Omg"]
+
+for number in 0...3 {
+    print("\(number+1)위: \(musicList[number])")
+}
+
+
+// for-in 반복 구문의 활용
+for i in 0...2 {
+    print(i)
+}
+
+let helloSwift: String = "hello Swift!"
+
+for char in helloSwift {
+    print(char)
+}
+
+
+let 주소: [String: String] = ["특별시":"서울시", "구":"송파구" ,"동":"가락동"]
+
+for (key,value) in 주소 {
+    print("\(key),\(value)")
+}
+
+```
+
+
 
