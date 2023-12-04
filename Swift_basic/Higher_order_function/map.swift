@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 // for-in 구문과 맵 메서드의 사용 비교
 let numbers: [Int] = [0,1,2,3,4]
 
