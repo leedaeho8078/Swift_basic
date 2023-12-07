@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0684CA712B220DC500A219A4 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684CA702B220DC500A219A4 /* Closure.swift */; };
 		068977A12B1D604C0069C9E3 /* Control Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068977A02B1D604C0069C9E3 /* Control Flow.swift */; };
 		06C165F02B1B61BC00463ADC /* filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C165EF2B1B61BC00463ADC /* filter.swift */; };
 		06C165F22B1B61C600463ADC /* reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C165F12B1B61C600463ADC /* reduce.swift */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0684CA702B220DC500A219A4 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		0684CA722B220DE100A219A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		068977A02B1D604C0069C9E3 /* Control Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control Flow.swift"; sourceTree = "<group>"; };
 		068977A32B1D60770069C9E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		06C165ED2B1B61AD00463ADC /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
@@ -57,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0684CA6F2B220DA700A219A4 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				0684CA702B220DC500A219A4 /* Closure.swift */,
+				0684CA722B220DE100A219A4 /* README.md */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
 		0689779F2B1D60220069C9E3 /* Control Flow */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 		06D51F312B199C50009BD89C = {
 			isa = PBXGroup;
 			children = (
+				0684CA6F2B220DA700A219A4 /* Closure */,
 				0689779F2B1D60220069C9E3 /* Control Flow */,
 				06C165F42B1CA8B200463ADC /* Collection type */,
 				06C165EC2B1B618A00463ADC /* Higher_order_function */,
@@ -197,6 +210,7 @@
 				06C165F62B1CA90F00463ADC /* Collection type.swift in Sources */,
 				068977A12B1D604C0069C9E3 /* Control Flow.swift in Sources */,
 				06D51F4D2B19EC83009BD89C /* Optional Chaining.swift in Sources */,
+				0684CA712B220DC500A219A4 /* Closure.swift in Sources */,
 				06C165F02B1B61BC00463ADC /* filter.swift in Sources */,
 				06D51F512B1A0F18009BD89C /* Early Exit.swift in Sources */,
 			);
