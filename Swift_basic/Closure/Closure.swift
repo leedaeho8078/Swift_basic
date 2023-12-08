@@ -97,7 +97,6 @@ result = calculate(a: 20, b: 10){ (left:Int, right:Int) in
     return left + right
 
 }
-
 print(result) //30
 
 // 단축 인자 이름
