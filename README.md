@@ -1,5 +1,5 @@
-# Swift 기몬 문법
-## ✏️TIL(Today I Learned)✏️
+# Swift Basic 문법
+## ✏️TIL(Today I Learned)
 
 ## 2023-12-01
 ### [inheritance(상속)](https://github.com/leedaeho8078/Swift_basic/blob/main/Swift_basic/Inheritance/README.md)
