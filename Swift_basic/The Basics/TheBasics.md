@@ -184,6 +184,5 @@ let name: Name = "홍길동"
 |------|---|----|
 |경고|코드가 잘못된것은 아니다,혹시나 더 나은 방법을 제안|<img width="100" alt="image" src="https://github.com/leedaeho8078/Swift_basic/assets/83402908/fdc0333f-f032-432b-b91e-c5aa2d5b9211">|
 |컴파일 오류|반드시 고쳐야 된다.|<img width="100" alt="image" src="https://github.com/leedaeho8078/Swift_basic/assets/83402908/2484ca2a-72d8-405c-9638-d84f9c41788c">
-|
 
 
