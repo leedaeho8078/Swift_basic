@@ -98,4 +98,21 @@ chooseStepFunction(backward:value:)
 
 addPrintFunction(_:_:)
 
+
+// 함수의 타입 표기 방법
+
+var function1: (Int) -> () = numberPrint(n:)
+
+var function2: (Int, Int) -> () = addPrintFunction(_:_:)
+
+
+
+
+// 변수가 함수를 가르키도록 할 수 있음
+
+function2(3, 5)
+
+
+
+
 ```
