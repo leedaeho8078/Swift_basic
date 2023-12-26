@@ -29,7 +29,7 @@ func saySomething(name: String) {  //name은 파라미터이며 내부에서 사
 
 
 // 함수 실행문(call)
-saySomething(name: "스티브")  //네임에 스티브를 전달
+saySomething(name: "스티브")  // 네임에 스티브를 전달
                             // 안녕하세요 스티브님
 
 ```
@@ -95,4 +95,7 @@ sayhello2()   // Hello, Swift!"
 sayhello3()   // Hello, Swift!"
 
 ```
+
+
+
 
