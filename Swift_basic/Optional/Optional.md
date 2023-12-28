@@ -27,17 +27,6 @@ optionalNum = 10
 print(optionalNum)      // Optional(10)
 
 
-//var optionalNum = nil         // 불가능한 형태
-
-var optionalNum: Int? = nil     // (추론할 형식이 없기 때문에 반드시 타입 어노테이션으로 초기화해야됨)
-optionalNum = 10
-
-// 값이 없을 수도 있는 (임시적인)타입이야
-
-
-print(optionalNum)      // Optional(10)
-
-
 ---------------
 
 
