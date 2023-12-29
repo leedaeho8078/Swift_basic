@@ -129,7 +129,7 @@ nums.sorted().reversed()
 //nums.shuffle()    // 요소의 순서 랜덤으로 직접 바꾸기
 //nums.shuffled()
 
-/ enumerated() ===> 열거된 것들을 Named 튜플 형태로 한개씩 전달
+// enumerated() ===> 열거된 것들을 Named 튜플 형태로 한개씩 전달
 
 // 데이터 바구니이기 때문에,
 // 실제 번호표(index)까지 붙여서, 차례대로 하나씩 꺼내서 사용하는 경우가 많을 수 있어서 아래처럼 활용 가능
