@@ -1,4 +1,4 @@
-# 속성(Property)과 메서드(Method)
+# 속성(Property)
 
 1. 속성(property)    
    * 저장 속성(stored), 지연(lazy) 저장 속성
