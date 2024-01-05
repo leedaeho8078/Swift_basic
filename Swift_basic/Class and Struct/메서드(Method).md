@@ -83,6 +83,39 @@ class Dog {
 2) 타입 서브스크립트
  * 서브스크립트 메서드 앞에 `static` 또는 `class(재정의 가능) 키워드`만 붙이면 됨
 
+```Swift
+class SomeClass {
+  var datas = ["iOS", "Swift", "UIkit", "Hello"]
+
+  subscript(index: Int) -> String {
+      get {
+        return datas[index]
+      }
+      set {
+      datas[index] = newValue
+      }
+
+  }
+
+}
+var data = SomeClass()
+data.datas[0] // iOS
+data[0] // get iOS 서브크립트로 인하여
+data[0] = "Android" // set
+
+
+eunm Planet: Int {
+  case venus = 1, mars, stars, ...
+
+  subscript(n: Int) -> Planet {
+    return Planet(rawValue: n)!
+  }  
+}
+
+var mars = Planet.mars // mars
+var mars = Planet[2] // mars
+print(mars) //mars
+```
 
 
 
