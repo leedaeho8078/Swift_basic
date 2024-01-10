@@ -88,7 +88,7 @@ class Person {
       return bmi
     }
     set {
-      w = bmi * h * h / 100000
+      w = newValue * h * h / 100000
     }
 
 p.bmi // get
