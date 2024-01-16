@@ -10,7 +10,7 @@
 * 할당이 해제되지 않으면 `메모리 누수(Memory Leak) 현상`이 발생
 
 java : GC       
-Objective: MRC, ARC
+Objective: MRC, ARC      
 Swift: ARC
 
  ARC(Automatic Reference Counting): 스위프트의 메모리 관리 모델     
