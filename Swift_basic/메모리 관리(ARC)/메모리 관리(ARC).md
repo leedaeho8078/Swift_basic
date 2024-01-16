@@ -125,10 +125,10 @@ Weak 키워드 및 Unowned 키워드
 * Unowned 키워드 : `Unowned var pet: Dog?`(5.3버전 이후에 옵셔널 선언도 가능)
 * 가르키틑 인스턴스의 `RC의 숫자`를 올라가지 않게 함(인스턴스 사이의 강한 참조를 제거)
 
-```
+
 strong(기본 변수 선언시): `let/var`, `optioanl/Non-optional` 가능       
 weak: `var`, `optional`만 가능      
 Unowned: `let/var`, `optioanl/Non-optional 가능
-```
+
 
 
