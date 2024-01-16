@@ -65,3 +65,70 @@ dog2 = nil   // RC- 1  RC == 1
 dog1 = nil   // RC- 1  RC == 0 // 초코가 메모리에서 해제되었습니다.
 
 ```
+
+### 강한 참조 사이클과 메모리 누수  
+* 객체(클래스의 인스턴스)가 서로를 참조하는 `강한 참조 사이클로` 인해    
+* 변수의 참조에 nil을 할당해도 메모리 해제가 되지않는 -> `메모리 누수의 상황`이 발생
+
+```
+그래서 과연 강한 참조를 해결할수 있는 방안은?
+```
+1. weak Reference(약한 참조)
+2. unowned Reference(비소유 참조)
+
+```Swift
+
+class Dog {
+    var name: String
+    weak var owner: Person?  // 강한 참조를 해결하기 위해 weak사용
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    deinit {
+        print("\(name)이 해제되었습니다.")
+    }
+}
+
+class Person {
+    var name: String
+    weak var pet: Dog?  // 강한 참조를 해결하기 위해 weak사용
+    
+    init(name: String) {
+        self.name = name
+        
+    }
+    
+    deinit {
+        print("\(name)이 해제되었습니다.")
+    }
+    
+}
+
+var dog: Dog? = Dog(name: "초코")
+var gildong: Person? = Person(name: "이대호")
+
+dog?.owner = gildong
+gildong?.pet = dog
+
+//dog?.owner = nil
+//gildong?.pet = nil
+
+dog = nil
+gildong = nil
+
+```
+
+Weak 키워드 및 Unowned 키워드
+* weak 키워드 : `weak var pet: Dog?`
+* Unowned 키워드 : `Unowned var pet: Dog?`(5.3버전 이후에 옵셔널 선언도 가능)
+* 가르키틑 인스턴스의 `RC의 숫자`를 올라가지 않게 함(인스턴스 사이의 강한 참조를 제거)
+
+```
+strong(기본 변수 선언시): `let/var`, `optioanl/Non-optional` 가능       
+weak: `var`, `optional`만 가능      
+Unowned: `let/var`, `optioanl/Non-optional 가능
+```
+
+
